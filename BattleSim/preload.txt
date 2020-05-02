@@ -1,0 +1,2 @@
+Name: "Frost Magic", Location: "BattleSim/Skills/Frost.bss"
+Name: "Ember Magic", Location: "BattleSim/Skills/Ember.bss"

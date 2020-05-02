@@ -1,0 +1,98 @@
+
+{
+    "AllSort": {
+        "types": ["melee", "sword"],
+        "properties": {
+            "trigger": {
+                "require": {
+                    "health": 0,
+                    "level": 0,
+                    "mana": 0,
+                    "resistance": 0,
+                    "skills": [],
+                    "speed": 0,
+                    "stamina": 0,
+                    "strength": 0,
+                    "xp": 0,
+                    "random": ""
+                },
+                "effects": {
+                    "boss.health.add": 0,
+                    "boss.health.remove": 0,
+                    "boss.health.set": 0,
+                    "boss.mana.add": 0,
+                    "boss.mana.remove": 0,
+                    "boss.mana.set": 0,
+                    "boss.resistance.add": 0,
+                    "boss.resistance.remove": 0,
+                    "boss.resistance.set": 1,
+                    "boss.skills.add": [],
+                    "boss.skills.remove": [],
+                    "boss.skills.set": "",
+                    "boss.stamina.add": 0,
+                    "boss.stamina.remove": 0,
+                    "boss.stamina.set": 0,
+                    "boss.strength.add": 0,
+                    "boss.strength.remove": 0,
+                    "boss.strength.set": 0,
+                    "boss.reward.add": 0,
+                    "boss.reward.remove": 0,
+                    "boss.reward.set": 0,
+
+                    "player.health.add": 0,
+                    "player.health.remove": 0,
+                    "player.health.set": 0,
+                    "player.level.add": 0,
+                    "player.level.remove": 0,
+                    "player.level.set": 0,
+                    "player.mana.add": 0,
+                    "player.mana.remove": 0,
+                    "player.mana.set": 0,
+                    "player.resistance.add": 0,
+                    "player.resistance.remove": 0,
+                    "player.resistance.set": 1,
+                    "player.skills.add": [],
+                    "player.skills.remove": [],
+                    "player.skills.set": "",
+                    "player.stamina.add": 0,
+                    "player.stamina.remove": 0,
+                    "player.stamina.set": 0,
+                    "player.strength.add": 0,
+                    "player.strength.remove": 0,
+                    "player.strength.set": 0,
+                    "player.xp.add": 0,
+                    "player.xp.remove": 0,
+                    "player.xp.set": 0,
+
+                    "runtime.actionbar": "",
+                    "runtime.color": ""
+                },
+                "metadata": {
+                    "raw.tps": 0,
+                    "raw.weight": 0,
+                    "raw.cap": 0
+                }
+            }
+        }
+    },
+    "Frost": {
+        "types": ["magic", "projectile"],
+        "properties": {
+            "trigger": {
+                "require": {
+                    "mana": 20,
+                    "health": 4,
+                    "level": 5
+                },
+                "effects": {
+                    "boss.health.remove": 10,
+                    "player.health.add": 1,
+                    "magic.actionbar.set": "You send a cool wind accross"
+                },
+            "metadata": {
+                "tiles_per_second": 3
+                }
+            }
+        }
+    }
+}
